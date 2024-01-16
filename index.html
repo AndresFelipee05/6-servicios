@@ -46,6 +46,47 @@
             .servicio{width: 50%;}
         }
 
+         footer{background-color:gray;
+            font-family: Arial, Helvetica, sans-serif; 
+            color: white;
+            display: flex;
+            padding: 30px;
+            flex-wrap: wrap;
+            
+            
+        }
+            footer h1{font-size: 1em;}
+
+            #aviso{
+            width: 80%;
+            text-align: center;
+            padding-left: 150px;
+            padding-bottom: 30px;
+        }
+
+            #aviso h1{text-align: center;
+            padding-bottom: 10pX;}
+
+            #redes{width: 20%; 
+            padding-left: 10px;
+            text-align: center;
+            padding-bottom: 10px;}
+
+            #copyright{width: 100%;
+            text-align: center;
+            border-top: 2px solid white;
+            padding-top: 10px;}
+
+            
+            @media ( max-width: 700px ){
+                footer{display: block;}
+
+                #aviso, #redes{width: 100%;}
+
+                #redes{text-align: center;}
+            }
+            
+
     </style>
 </head>
 <body>
@@ -85,5 +126,22 @@
         </div>
     </div>
 </section>
+
+    <footer>
+    <div id="aviso">
+        <h1>Aviso Legal</h1>
+        <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, molestias libero. Aspernatur consectetur omnis nulla doloribus, sunt quod, mollitia dolor nostrum minus atque dignissimos accusantium suscipit ratione. Nobis, quibusdam consequatur! Cupiditate nulla illum assumenda eligendi, quibusdam, reprehenderit atque alias id optio omnis dolore facilis voluptates ad eius aliquam fugit recusandae pariatur! Sequi.sit amet consectetur adipisicing elit. Illo sit dolore mollitia, quae repellat consequuntur facere vitae, illum reiciendis dolor aliquam veniam deleniti adipisci cumque nihil eaque itaque eos veritatis?</p>
+    </div>
+    <div id="redes">
+        <h1>Redes Sociales</h1>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+    </div>
+    <div id="copyright">
+        IES Jimenez de Córdoba 2024
+    </div>
+
+    </footer>
 </body>
 </html>
