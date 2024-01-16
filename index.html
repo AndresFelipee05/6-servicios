@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
         .servicio{
             width: 33%;
         }
+
         #contenedor{
             display: flex;
             flex-wrap: wrap;
             font-family: Arial, Helvetica, sans-serif;
             border: 2px solid red;
         }
+
         body{
         text-align: center;
         }
+
         .servicio img{
             width: 40%;
-
         }
+
         p{
             color: purple;
         }
@@ -30,8 +37,15 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-    @media (max-width:)
-        
+        @media (max-width:600px){
+            .servicio{width: 100%;
+        }
+        }
+
+        @media (min-width:601px) and (max-width:800px){
+            .servicio{width: 50%;}
+        }
+
     </style>
 </head>
 <body>
